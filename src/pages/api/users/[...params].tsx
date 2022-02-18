@@ -6,7 +6,6 @@ import { NextApiRequest, NextApiResponse } from 'next';
 // Cognito, Auth0 - Users, password etc. (authentication SASS)
 
 export default (request: NextApiRequest, response: NextApiResponse) => {
-  console.log(request.query)
 
   const users = [
     { id: 1, name: 'Flavio' },

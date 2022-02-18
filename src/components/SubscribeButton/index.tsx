@@ -9,6 +9,7 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
     <button
       type="button"
       className={styles.subscribeButton}
+      onClick={() => console.log('Olá, seja Benvindo!')}
     >
       Subscribe now
     </button>
